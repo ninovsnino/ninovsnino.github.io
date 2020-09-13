@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>windows on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/tags/windows/</link>
+    <description>Recent content in windows on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 May 2012 15:27:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Convert string to wide, and wide to string C&#43;&#43;</title>
+      <link>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
+      <pubDate>Sun, 27 May 2012 15:27:58 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
+      <description>For us who working on *nix platform, we will show a way to ocnvert between wide string to string and vice versa, and also to convert to char *.
+The emerge of 64 bit architecture on the processor and operating system make a lot of application need to move to the more advance platform. Applications and libraries which build on 32 bit platform is not to say it&amp;rsquo;s obsolete, they in fact are still able to run on top of 64 bit, but it will not utilize fully the extra 32 bit.</description>
+    </item>
+    
+  </channel>
+</rss>

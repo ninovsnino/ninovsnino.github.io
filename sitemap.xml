@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/math-typesetting/</loc>
+    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/</loc>
+    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/</loc>
+    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/markdown-syntax/</loc>
+    <lastmod>2020-08-23T13:38:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/mutex-vs-semaphore/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/software/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/software/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/crypto/</loc>
+    <lastmod>2016-06-22T08:44:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/generate-key-pair-with-openssl/</loc>
+    <lastmod>2016-06-22T08:44:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/openssl/</loc>
+    <lastmod>2016-06-22T08:44:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/c/</loc>
+    <lastmod>2016-06-15T00:12:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/cmake/</loc>
+    <lastmod>2016-06-15T00:12:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/getch/</loc>
+    <lastmod>2016-06-15T00:12:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/how-to-get-a-getch/</loc>
+    <lastmod>2016-06-15T00:12:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/ncurses/</loc>
+    <lastmod>2016-06-15T00:12:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/vim/</loc>
+    <lastmod>2016-05-29T03:55:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/vim/</loc>
+    <lastmod>2016-05-29T03:55:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</loc>
+    <lastmod>2016-05-29T03:55:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/git/</loc>
+    <lastmod>2016-05-19T05:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/git/</loc>
+    <lastmod>2016-05-19T05:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/git-cheat-sheet/</loc>
+    <lastmod>2016-05-19T05:28:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/my-vimrc/</loc>
+    <lastmod>2016-03-23T06:46:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/acquiring-knowledge/</loc>
+    <lastmod>2016-03-03T05:57:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/personal/</loc>
+    <lastmod>2016-03-03T05:57:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/personal/</loc>
+    <lastmod>2016-03-03T05:57:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/cygwin/</loc>
+    <lastmod>2014-07-23T01:09:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/cygwin/</loc>
+    <lastmod>2014-07-23T01:09:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/write-issue-in-cygwin/</loc>
+    <lastmod>2014-07-23T01:09:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/installing-topojson/</loc>
+    <lastmod>2014-07-19T15:56:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/javascript/</loc>
+    <lastmod>2014-07-19T15:56:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/updating-github-fork/</loc>
+    <lastmod>2014-03-17T08:36:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/antonio-conte/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/asroma/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/dodo/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/football/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/gervinho/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/miralem/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/nino/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/payback-at-olympico/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/pjanic/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/radja-nainggolan/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/roma/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/roma/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/rudi-garcia/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/torosidis/</loc>
+    <lastmod>2014-01-23T13:51:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/balzaretti/</loc>
+    <lastmod>2013-09-25T14:37:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/derby/</loc>
+    <lastmod>2013-09-25T14:37:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/vengeance-and-liberation-roma-derby/</loc>
+    <lastmod>2013-09-25T14:37:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/bash/</loc>
+    <lastmod>2013-05-26T06:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</loc>
+    <lastmod>2013-05-26T06:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/mintty/</loc>
+    <lastmod>2013-05-26T06:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/solarized/</loc>
+    <lastmod>2013-05-26T06:30:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/32-bit/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/64-bit/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/char/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/compiler/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/gcc/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/linux/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/string/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/wide-string/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/windows/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/wstring/</loc>
+    <lastmod>2012-05-27T15:27:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/bendungan-hilir/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/benhil/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/ditlantas/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/government/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/indonesia/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/indonesia/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/jakarta/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/mt-haryono/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/nino-wicaksono/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/one-day-bureaucracy/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/sim/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/sim-keliling/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/sociocultural/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/travel/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/wicaksono/</loc>
+    <lastmod>2012-05-26T05:17:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/internasional/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/menara-saidah/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/saidah/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/sim/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/sim-internasional/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/sim-internasional/</loc>
+    <lastmod>2012-05-17T15:51:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/datetime/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/divmod/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/elapse/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/microsecond/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/millisecond/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/python/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/python/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/time/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/total_seconds/</loc>
+    <lastmod>2012-02-17T13:00:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/delta/</loc>
+    <lastmod>2012-02-16T07:09:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</loc>
+    <lastmod>2012-02-16T07:09:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/log/</loc>
+    <lastmod>2012-02-16T07:09:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/logging/</loc>
+    <lastmod>2012-02-16T07:09:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/py2exe-redistributable/</loc>
+    <lastmod>2012-01-03T02:09:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/c/c&#43;&#43;/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/series/c/c&#43;&#43;/</loc>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/categories/</loc>
+  </url>
+  
+</urlset>

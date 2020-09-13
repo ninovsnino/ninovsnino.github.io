@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/series/software/</link>
+    <description>Recent content in Software on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Nov 2016 01:06:21 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/series/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mutex vs Semaphore</title>
+      <link>http://ninovsnino.io/posts/mutex-vs-semaphore/</link>
+      <pubDate>Wed, 09 Nov 2016 01:06:21 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/mutex-vs-semaphore/</guid>
+      <description>A simple yet clear analogy on the difference between mutex and semaphore
+ Mutex: Is a key to a toilet. One person can have the key - occupy the toilet - at the time. When finished, the person gives (frees) the key to the next person in the queue. Officially: &amp;ldquo;Mutexes are typically used to serialise access to a section of re-entrant code that cannot be executed concurrently by more than one thread.</description>
+    </item>
+    
+    <item>
+      <title>Generate key pair with OpenSSL</title>
+      <link>http://ninovsnino.io/posts/generate-key-pair-with-openssl/</link>
+      <pubDate>Wed, 22 Jun 2016 08:44:46 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/generate-key-pair-with-openssl/</guid>
+      <description>I was playing around with OpenSSL again and here is some (hopefully) simple take to get familiarize with it&amp;rsquo;s capability.
+Generate key pair and getting it&amp;rsquo;s modulus and exponent Here are the openssl commands that operate to generate key pair and get the information about the generated key
+ Generate key pair openssl genrsa -aes256 -out private.pem 2048 Get public key openssl rsa -in private.pem -pubout -out public.pem Get private key (warning!</description>
+    </item>
+    
+    <item>
+      <title>How to get a getch( )</title>
+      <link>http://ninovsnino.io/posts/how-to-get-a-getch/</link>
+      <pubDate>Wed, 15 Jun 2016 00:12:36 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/how-to-get-a-getch/</guid>
+      <description>Bummer, your small c apps compiler doesn&amp;rsquo;t have a getch(). We can overcome this by installing ncurses or create our own getch() function.
+ ncurses  If you&amp;rsquo;re using cygwin, we should install ncurses first (it&amp;rsquo;s not included in cygwin&amp;rsquo;s default setup). First of all, you have to get the libncurses-devel package.
+Here is example how to use ncurses  https://gist.github.com/ninovsnino/f6ca81086fd5c170665e04bc053b22e7
+Manual compile: gcc test_ncurses.c -lncurses CMake example to compile  https://gist.</description>
+    </item>
+    
+    <item>
+      <title>Vim MatchIt and FuzzyFinder</title>
+      <link>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</link>
+      <pubDate>Sun, 29 May 2016 03:55:57 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</guid>
+      <description>Here is my addition to my .vimrc config file this week.  https://gist.github.com/ninovsnino/f55aadeb8c2e481d6bbf5d9a42152c71
+The First part is to load matchit.vim that already part of Vim distribution, it aiding a great help for me to browse through html file, it extend the % vim command.
+The second part is a bit tricky for FuzzyFinder plugin user, I want to exclude directory, in this case is &amp;ldquo;venv&amp;rdquo; directory, that apparently the regex matching work well with fuf_file_exclude instead of fuf_dir_exclude.</description>
+    </item>
+    
+    <item>
+      <title>Git cheat sheet</title>
+      <link>http://ninovsnino.io/posts/git-cheat-sheet/</link>
+      <pubDate>Thu, 19 May 2016 05:28:12 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/git-cheat-sheet/</guid>
+      <description>Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
+ Starting  git init git clone &amp;lt;repository-url&amp;gt;   Adding/making changes  git add . git add &amp;lt;path/file.name&amp;gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1.</description>
+    </item>
+    
+    <item>
+      <title>My .vimrc</title>
+      <link>http://ninovsnino.io/posts/my-vimrc/</link>
+      <pubDate>Wed, 23 Mar 2016 06:46:26 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/my-vimrc/</guid>
+      <description>My .vimrc, vim config file that I use everyday.
+I want to keep it simple by not having too much configuration in vimrc itself. There is a plugin to manage vimrc to make it cleaner and readable, however it will introduce extra configuration. My idea with this vimrc is to share easily between machine, main machine, or remote compiler machine that we can ssh it. Only one setup is needed to modify by hand, the vundle package manager, that&amp;rsquo;s it.</description>
+    </item>
+    
+    <item>
+      <title>Write issue in Cygwin</title>
+      <link>http://ninovsnino.io/posts/write-issue-in-cygwin/</link>
+      <pubDate>Wed, 23 Jul 2014 01:09:25 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/write-issue-in-cygwin/</guid>
+      <description>Initially I was put the title as &amp;ldquo;Read/Write issue in Cygwin&amp;rdquo; but, there&amp;rsquo;s no issue on Read operation but surely it&amp;rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&amp;rsquo;s for our own good, so we just need to deal with it.</description>
+    </item>
+    
+    <item>
+      <title>Installing topojson</title>
+      <link>http://ninovsnino.io/posts/installing-topojson/</link>
+      <pubDate>Sat, 19 Jul 2014 15:56:31 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/installing-topojson/</guid>
+      <description>If you&amp;rsquo;re having difficulties on installing topojson, you&amp;rsquo;re not alone. Even someone has wisdom suggesting to let it go.
+Map
+Plenty are failed and some successful installing topojson, the problem was it has too many dependency. First of all topojson run on top of node.js which is the first pitfall of the initial failure by installing blindly with no awareness of stable release. If you&amp;rsquo;re using windows, like me, unfortunately, you&amp;rsquo;ve already messing around with your existing python yet, most probably, failed.</description>
+    </item>
+    
+    <item>
+      <title>Updating GitHub Fork</title>
+      <link>http://ninovsnino.io/posts/updating-github-fork/</link>
+      <pubDate>Mon, 17 Mar 2014 08:36:28 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/updating-github-fork/</guid>
+      <description>Let say you want to contribute to an interesting project on GitHub neovim/neovim, first we need to fork it to our GitHub accout ninovsnino/neovim. All this we need to do that in our own GitHub account. I&amp;rsquo;m a vim guy and I really exited on the initiative to make a modern and extendable version of vim, it&amp;rsquo;s a good example on new and hot open source project on GitHub.
+Register and list git alias Now let&amp;rsquo;s open our Git Bash console to clone it in our local machine</description>
+    </item>
+    
+    <item>
+      <title>Cygwin, nice and easy setup</title>
+      <link>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
+      <pubDate>Sun, 26 May 2013 06:30:36 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
+      <description>I have been working in *nix environment for quite sometimes, most of embedded system nowadays build on top of Linux along with *nix toolset, for me it&amp;rsquo;s with BusyBox, minimal *nix stripped down toolset dubbed by the author addresses as The Swiss Army Knife for Embedded Linux, which is true in tight constraint nature in embedded &amp;ldquo;pocket&amp;rdquo; size.
+We have to live in that world, a lot of limitation and we need to overcome it with right mindset.</description>
+    </item>
+    
+    <item>
+      <title>Convert string to wide, and wide to string C&#43;&#43;</title>
+      <link>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
+      <pubDate>Sun, 27 May 2012 15:27:58 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
+      <description>For us who working on *nix platform, we will show a way to ocnvert between wide string to string and vice versa, and also to convert to char *.
+The emerge of 64 bit architecture on the processor and operating system make a lot of application need to move to the more advance platform. Applications and libraries which build on 32 bit platform is not to say it&amp;rsquo;s obsolete, they in fact are still able to run on top of 64 bit, but it will not utilize fully the extra 32 bit.</description>
+    </item>
+    
+    <item>
+      <title>Get Delta/Elapse time in Python with datetime</title>
+      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>
+      <pubDate>Fri, 17 Feb 2012 13:00:31 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</guid>
+      <description>Time it better Now human need to keep up with machine, let’s keep up with them then, we are talking with milliseconds and microseconds now, we will use datetime.
+import datetime &amp;gt;&amp;gt;&amp;gt; datetime.datetime.now() datetime.datetime(2012, 2, 17, 20, 29, 53, 567000) uh, …, I will change it. Too much typing.
+from datetime import datetime startTime = datetime.now() # do something fast! faster! elapsedTime = datetime.now() – startTime print elapsedTime.microseconds Notice on microseconds, because Pyhton give in microseconds we can simply convert it to milliseconds with * 1000</description>
+    </item>
+    
+    <item>
+      <title>Get Delta/Elapse time in Python</title>
+      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
+      <pubDate>Thu, 16 Feb 2012 07:09:51 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
+      <description>How to get delta time in python? Python provide time module, as my favourite way to get delta / elapse time, of course, depends on what you need.
+I usually do taking user normal actions, by getting a simple hour-minute-seconds, like time taken running scripts, batching, clicking buttons and navigate between tabs, or buttons.
+import time startTime = time.time() # doing blah... blah... # whatever actions we do in here elapsedTime = time.</description>
+    </item>
+    
+    <item>
+      <title>py2exe redistributable</title>
+      <link>http://ninovsnino.io/posts/py2exe-redistributable/</link>
+      <pubDate>Tue, 03 Jan 2012 02:09:23 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/py2exe-redistributable/</guid>
+      <description>In my works, I have been dealing with a lot of last minutes issue and request, it means that work will pop up, could be some calls, people approach me, email with urgent icon and marked as important because &amp;ldquo;the content inside telling you need to do something about it ASAP blah blah&amp;rdquo;, this just appear like hour before I wrapt my phone, bag, and lock my system.
+Last week was different, none of that mentioned, I come with self defence first We had different mood, it was a holiday mood between the 25th and end of the year, two long weekend in row, time to clear leave, shutdown maybe, you can name it.</description>
+    </item>
+    
+  </channel>
+</rss>

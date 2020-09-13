@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/series/vim/</link>
+    <description>Recent content in vim on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 May 2016 03:55:57 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/series/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vim MatchIt and FuzzyFinder</title>
+      <link>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</link>
+      <pubDate>Sun, 29 May 2016 03:55:57 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</guid>
+      <description>Here is my addition to my .vimrc config file this week.  https://gist.github.com/ninovsnino/f55aadeb8c2e481d6bbf5d9a42152c71
+The First part is to load matchit.vim that already part of Vim distribution, it aiding a great help for me to browse through html file, it extend the % vim command.
+The second part is a bit tricky for FuzzyFinder plugin user, I want to exclude directory, in this case is &amp;ldquo;venv&amp;rdquo; directory, that apparently the regex matching work well with fuf_file_exclude instead of fuf_dir_exclude.</description>
+    </item>
+    
+    <item>
+      <title>My .vimrc</title>
+      <link>http://ninovsnino.io/posts/my-vimrc/</link>
+      <pubDate>Wed, 23 Mar 2016 06:46:26 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/my-vimrc/</guid>
+      <description>My .vimrc, vim config file that I use everyday.
+I want to keep it simple by not having too much configuration in vimrc itself. There is a plugin to manage vimrc to make it cleaner and readable, however it will introduce extra configuration. My idea with this vimrc is to share easily between machine, main machine, or remote compiler machine that we can ssh it. Only one setup is needed to modify by hand, the vundle package manager, that&amp;rsquo;s it.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Nino Wicaksono">
+    <meta name="description" content="Initially I was put the title as &ldquo;Read/Write issue in Cygwin&rdquo; but, there&rsquo;s no issue on Read operation but surely it&rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&rsquo;s for our own good, so we just need to deal with it.">
+    <meta name="keywords" content="">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Write issue in Cygwin"/>
+<meta name="twitter:description" content="Initially I was put the title as &ldquo;Read/Write issue in Cygwin&rdquo; but, there&rsquo;s no issue on Read operation but surely it&rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&rsquo;s for our own good, so we just need to deal with it."/>
+
+    <meta property="og:title" content="Write issue in Cygwin" />
+<meta property="og:description" content="Initially I was put the title as &ldquo;Read/Write issue in Cygwin&rdquo; but, there&rsquo;s no issue on Read operation but surely it&rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&rsquo;s for our own good, so we just need to deal with it." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ninovsnino.io/posts/write-issue-in-cygwin/" />
+<meta property="article:published_time" content="2014-07-23T01:09:25+00:00" />
+<meta property="article:modified_time" content="2014-07-23T01:09:25+00:00" /><meta property="og:site_name" content="Nino Wicaksono" /><meta property="og:see_also" content="http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/" />
+
+
+
+
+    
+      <base href="http://ninovsnino.io/posts/write-issue-in-cygwin/">
+    
+    <title>
+  Write issue in Cygwin · Nino Wicaksono
+</title>
+
+    
+      <link rel="canonical" href="http://ninovsnino.io/posts/write-issue-in-cygwin/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://ninovsnino.io/css/coder.min.fce3d3684e836ce340cdd591dad1749c310472d5ed4049fab99845c9aec4d4bf.css" integrity="sha256-/OPTaE6DbONAzdWR2tF0nDEEctXtQEn6uZhFya7E1L8=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="http://ninovsnino.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://ninovsnino.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://ninovsnino.io/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://ninovsnino.io/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon"  sizes="180x180" href="http://ninovsnino.io/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.74.3" />
+  </head>
+  
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://ninovsnino.io/">
+      Nino Wicaksono
+    </a>
+    
+      <span id="dark-mode-toggle" class="float-right">
+        <i class="fas fa-adjust fa-fw"></i>
+      </span>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fas fa-bars fa-fw"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/about/">About</a>
+            </li>
+          
+        
+        
+        <li class="navigation-item separator">
+          <span>|</span>
+        </li>
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Write issue in Cygwin</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2014-07-23T01:09:25Z'>
+                July 23, 2014
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              One-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="http://ninovsnino.io/tags/software/">Software</a>
+      <span class="separator">•</span>
+    <a href="http://ninovsnino.io/tags/cygwin/">cygwin</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Initially I was put the title as &ldquo;Read/Write issue in Cygwin&rdquo; but, there&rsquo;s no issue on Read operation but surely it&rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&rsquo;s for our own good, so we just need to <em>deal</em> with it.</p>
+<ul>
+<li>Go to /etc/fstab</li>
+<li>Change from <code>none /cygdrive cygdrive binary,posix=0,user 0 0</code> to <code>none /cygdrive cygdrive binary,noacl,posix=0,user 0 0</code></li>
+</ul>
+<p><a href="http://en.wikipedia.org/wiki/Access_control_list">Access Control List</a>, noacl is <em>the</em> keyword. It will solve Cygwin write problem. There was another post to setup <a href="http://nino.wicaksono.us/2013/05/cygwin-nice-and-easy-setup/">Cygwin terminal with Mintty</a>, that will put aesthetic to your Cygwin setup.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in cygwin</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/">Cygwin, nice and easy setup</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+    
+    
+    
+      <h3>See also in Software</h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/mutex-vs-semaphore/">Mutex vs Semaphore</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/generate-key-pair-with-openssl/">Generate key pair with OpenSSL</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/how-to-get-a-getch/">How to get a getch( )</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/">Vim MatchIt and FuzzyFinder</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/git-cheat-sheet/">Git cheat sheet</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/my-vimrc/">My .vimrc</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>ninovsnino - firmware on the day, software at night</p>
+      
+      
+        ©
+        
+        2020
+         Nino Wicaksono 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+      
+      <script src="http://ninovsnino.io/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

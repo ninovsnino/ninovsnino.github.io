@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Nino Wicaksono">
+    <meta name="description" content="Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
+ Starting  git init git clone &lt;repository-url&gt;   Adding/making changes  git add . git add &lt;path/file.name&gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1.">
+    <meta name="keywords" content="">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git cheat sheet"/>
+<meta name="twitter:description" content="Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
+ Starting  git init git clone &lt;repository-url&gt;   Adding/making changes  git add . git add &lt;path/file.name&gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1."/>
+
+    <meta property="og:title" content="Git cheat sheet" />
+<meta property="og:description" content="Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
+ Starting  git init git clone &lt;repository-url&gt;   Adding/making changes  git add . git add &lt;path/file.name&gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ninovsnino.io/posts/git-cheat-sheet/" />
+<meta property="article:published_time" content="2016-05-19T05:28:12+00:00" />
+<meta property="article:modified_time" content="2016-05-19T05:28:12+00:00" /><meta property="og:site_name" content="Nino Wicaksono" /><meta property="og:see_also" content="http://ninovsnino.io/posts/updating-github-fork/" />
+
+
+
+
+    
+      <base href="http://ninovsnino.io/posts/git-cheat-sheet/">
+    
+    <title>
+  Git cheat sheet · Nino Wicaksono
+</title>
+
+    
+      <link rel="canonical" href="http://ninovsnino.io/posts/git-cheat-sheet/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="http://ninovsnino.io/css/coder.min.fce3d3684e836ce340cdd591dad1749c310472d5ed4049fab99845c9aec4d4bf.css" integrity="sha256-/OPTaE6DbONAzdWR2tF0nDEEctXtQEn6uZhFya7E1L8=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="http://ninovsnino.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="http://ninovsnino.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="http://ninovsnino.io/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="http://ninovsnino.io/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon"  sizes="180x180" href="http://ninovsnino.io/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.74.3" />
+  </head>
+  
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="http://ninovsnino.io/">
+      Nino Wicaksono
+    </a>
+    
+      <span id="dark-mode-toggle" class="float-right">
+        <i class="fas fa-adjust fa-fw"></i>
+      </span>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fas fa-bars fa-fw"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="http://ninovsnino.io/about/">About</a>
+            </li>
+          
+        
+        
+        <li class="navigation-item separator">
+          <span>|</span>
+        </li>
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Git cheat sheet</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2016-05-19T05:28:12Z'>
+                May 19, 2016
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="http://ninovsnino.io/tags/git/">git</a>
+      <span class="separator">•</span>
+    <a href="http://ninovsnino.io/tags/software/">Software</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. <strong>Add, check and publish. The basic</strong></p>
+<ol>
+<li>Starting
+<ul>
+<li><code>git init</code></li>
+<li><code>git clone &lt;repository-url&gt;</code></li>
+</ul>
+</li>
+<li>Adding/making changes
+<ul>
+<li><code>git add .</code></li>
+<li><code>git add &lt;path/file.name&gt;</code></li>
+<li><code>git commit -am “”</code></li>
+</ul>
+</li>
+<li>Checking status
+<ul>
+<li><code>git status</code></li>
+<li><code>git log —-all —-graph —-oneline</code></li>
+<li><code>git log branch1..branch2</code></li>
+</ul>
+</li>
+<li>Getting updates
+<ul>
+<li><code>git fetch</code> Fetches latest changes from origin</li>
+<li><code>git pull</code> Fetches latest changes from origin and merge</li>
+</ul>
+</li>
+<li>Publishing
+<ul>
+<li><code>git push</code> Push changes to origin from current</li>
+<li><code>git push &lt;origin&gt; &lt;branch&gt;</code> Push changes to origin from branch</li>
+</ul>
+</li>
+</ol>
+<p>  <strong>Modify, fixing mistakes</strong></p>
+<ol>
+<li>Revert commits
+<ul>
+<li><code>git revert HEAD</code></li>
+<li><code>git revert &lt;commit-ref&gt;</code></li>
+</ul>
+</li>
+<li>Revert/undo all changes
+<ul>
+<li><code>git checkout - &lt;file&gt;</code></li>
+</ul>
+</li>
+<li>Fix last commits
+<ul>
+<li><code>git commit –amend [-m “updated message”]</code></li>
+</ul>
+</li>
+<li>Reset modifications
+<ul>
+<li><code>git reset HEAD &lt;file&gt;</code></li>
+</ul>
+</li>
+<li>Diff-erence
+<ul>
+<li><code>git diff</code></li>
+<li><code>git diff $id1 $id2</code> Diff between 2 commits</li>
+</ul>
+</li>
+<li>Resolving changes
+<ul>
+<li><code>git checkout –ours &lt;path/file&gt;</code></li>
+<li><code>git checkout –theirs &lt;path/file&gt;</code></li>
+</ul>
+</li>
+<li><a href="http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html">Combine commits</a>
+<ul>
+<li><code>git rebase -i HEAD~4</code></li>
+</ul>
+</li>
+</ol>
+<p>  <strong>Branching</strong></p>
+<ol>
+<li>Creating branch
+<ul>
+<li><code>git branch &lt;branch name&gt;</code></li>
+</ul>
+</li>
+<li>Listing branch
+<ul>
+<li><code>git branch</code></li>
+<li><code>git branch -a</code></li>
+<li><code>git branch -v</code></li>
+</ul>
+</li>
+<li>Switching branch
+<ul>
+<li><code>git checkout &lt;branch-name&gt;</code></li>
+<li><code>git checkout -b &lt;branch-name&gt;</code></li>
+</ul>
+</li>
+<li>Merging branch
+<ul>
+<li><code>git merge &lt;branch-name&gt;</code></li>
+<li><code>git merge --squash &lt;branch-name&gt;</code></li>
+</ul>
+</li>
+<li>Deleting branch
+<ul>
+<li><code>git branch -d &lt;branch-name&gt;</code></li>
+</ul>
+</li>
+</ol>
+<p>  <strong>Remote</strong></p>
+<ol>
+<li>Adding remote
+<ul>
+<li><code>git remote &lt;remote-name&gt; &lt;remote-url&gt;</code></li>
+</ul>
+</li>
+<li>Listing remote
+<ul>
+<li><code>git remote -v</code></li>
+</ul>
+</li>
+<li>Fetching/Pushing to/from remote
+<ul>
+<li><code>git fetch &lt;remote-name&gt;</code></li>
+<li><code>git push &lt;remote-name&gt; &lt;branch-name&gt;</code></li>
+</ul>
+</li>
+<li>Getting update without removing local
+<ul>
+<li><code>git stash</code></li>
+<li><code>git pull</code></li>
+<li><code>git stash pop</code></li>
+</ul>
+</li>
+</ol>
+<p>Also, use <code>.gitignore</code> file for ignore files or directories. For further reference for more detailed git usage, my go to is <a href="http://gitref.org/index.html">gitref.org</a>.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in git</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/updating-github-fork/">Updating GitHub Fork</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+    
+    
+    
+      <h3>See also in Software</h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/mutex-vs-semaphore/">Mutex vs Semaphore</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/generate-key-pair-with-openssl/">Generate key pair with OpenSSL</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/how-to-get-a-getch/">How to get a getch( )</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/">Vim MatchIt and FuzzyFinder</a>
+            </li>
+          
+        
+          
+        
+          
+            <li>
+              <a href="http://ninovsnino.io/posts/my-vimrc/">My .vimrc</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>ninovsnino - firmware on the day, software at night</p>
+      
+      
+        ©
+        
+        2020
+         Nino Wicaksono 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+      
+      <script src="http://ninovsnino.io/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

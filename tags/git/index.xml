@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/tags/git/</link>
+    <description>Recent content in git on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 May 2016 05:28:12 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git cheat sheet</title>
+      <link>http://ninovsnino.io/posts/git-cheat-sheet/</link>
+      <pubDate>Thu, 19 May 2016 05:28:12 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/git-cheat-sheet/</guid>
+      <description>Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
+ Starting  git init git clone &amp;lt;repository-url&amp;gt;   Adding/making changes  git add . git add &amp;lt;path/file.name&amp;gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1.</description>
+    </item>
+    
+    <item>
+      <title>Updating GitHub Fork</title>
+      <link>http://ninovsnino.io/posts/updating-github-fork/</link>
+      <pubDate>Mon, 17 Mar 2014 08:36:28 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/updating-github-fork/</guid>
+      <description>Let say you want to contribute to an interesting project on GitHub neovim/neovim, first we need to fork it to our GitHub accout ninovsnino/neovim. All this we need to do that in our own GitHub account. I&amp;rsquo;m a vim guy and I really exited on the initiative to make a modern and extendable version of vim, it&amp;rsquo;s a good example on new and hot open source project on GitHub.
+Register and list git alias Now let&amp;rsquo;s open our Git Bash console to clone it in our local machine</description>
+    </item>
+    
+  </channel>
+</rss>

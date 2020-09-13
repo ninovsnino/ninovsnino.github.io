@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logging on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/tags/logging/</link>
+    <description>Recent content in logging on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Feb 2012 07:09:51 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get Delta/Elapse time in Python</title>
+      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
+      <pubDate>Thu, 16 Feb 2012 07:09:51 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
+      <description>How to get delta time in python? Python provide time module, as my favourite way to get delta / elapse time, of course, depends on what you need.
+I usually do taking user normal actions, by getting a simple hour-minute-seconds, like time taken running scripts, batching, clicking buttons and navigate between tabs, or buttons.
+import time startTime = time.time() # doing blah... blah... # whatever actions we do in here elapsedTime = time.</description>
+    </item>
+    
+  </channel>
+</rss>

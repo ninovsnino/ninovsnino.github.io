@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mintty on Nino Wicaksono</title>
+    <link>http://ninovsnino.io/tags/mintty/</link>
+    <description>Recent content in mintty on Nino Wicaksono</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2013 06:30:36 +0000</lastBuildDate>
+    
+	<atom:link href="http://ninovsnino.io/tags/mintty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cygwin, nice and easy setup</title>
+      <link>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
+      <pubDate>Sun, 26 May 2013 06:30:36 +0000</pubDate>
+      
+      <guid>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
+      <description>I have been working in *nix environment for quite sometimes, most of embedded system nowadays build on top of Linux along with *nix toolset, for me it&amp;rsquo;s with BusyBox, minimal *nix stripped down toolset dubbed by the author addresses as The Swiss Army Knife for Embedded Linux, which is true in tight constraint nature in embedded &amp;ldquo;pocket&amp;rdquo; size.
+We have to live in that world, a lot of limitation and we need to overcome it with right mindset.</description>
+    </item>
+    
+  </channel>
+</rss>
