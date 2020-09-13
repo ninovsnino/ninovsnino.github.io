@@ -6,37 +6,10 @@
     <description>Recent content in Posts on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 13:42:09 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Nov 2016 01:06:21 +0000</lastBuildDate>
     
 	<atom:link href="http://ninovsnino.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://ninovsnino.io/posts/math-typesetting/</link>
-      <pubDate>Sun, 23 Aug 2020 13:42:09 +0800</pubDate>
-      
-      <guid>http://ninovsnino.io/posts/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax</title>
-      <link>http://ninovsnino.io/posts/markdown-syntax/</link>
-      <pubDate>Sun, 23 Aug 2020 13:38:03 +0800</pubDate>
-      
-      <guid>http://ninovsnino.io/posts/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>http://ninovsnino.io/posts/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://ninovsnino.io/posts/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Mutex vs Semaphore</title>

@@ -3,47 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://ninovsnino.io/posts/math-typesetting/</loc>
-    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/</loc>
-    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/posts/</loc>
-    <lastmod>2020-08-23T13:42:09+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/posts/markdown-syntax/</loc>
-    <lastmod>2020-08-23T13:38:03+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/posts/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://ninovsnino.io/tags/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://ninovsnino.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://ninovsnino.io/posts/mutex-vs-semaphore/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/posts/</loc>
     <lastmod>2016-11-09T01:06:21+00:00</lastmod>
   </url>
   
@@ -59,6 +34,11 @@
   
   <url>
     <loc>http://ninovsnino.io/series/software/</loc>
+    <lastmod>2016-11-09T01:06:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ninovsnino.io/tags/</loc>
     <lastmod>2016-11-09T01:06:21+00:00</lastmod>
   </url>
   
