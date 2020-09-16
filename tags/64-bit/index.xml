@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>64 bit on Nino Wicaksono</title>
-    <link>http://ninovsnino.io/tags/64-bit/</link>
+    <link>https://ninovsnino.io/tags/64-bit/</link>
     <description>Recent content in 64 bit on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 27 May 2012 15:27:58 +0000</lastBuildDate>
     
-	<atom:link href="http://ninovsnino.io/tags/64-bit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ninovsnino.io/tags/64-bit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Convert string to wide, and wide to string C&#43;&#43;</title>
-      <link>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
+      <link>https://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
       <pubDate>Sun, 27 May 2012 15:27:58 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
+      <guid>https://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
       <description>For us who working on *nix platform, we will show a way to ocnvert between wide string to string and vice versa, and also to convert to char *.
 The emerge of 64 bit architecture on the processor and operating system make a lot of application need to move to the more advance platform. Applications and libraries which build on 32 bit platform is not to say it&amp;rsquo;s obsolete, they in fact are still able to run on top of 64 bit, but it will not utilize fully the extra 32 bit.</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nino Wicaksono</title>
-    <link>http://ninovsnino.io/</link>
+    <link>https://ninovsnino.io/</link>
     <description>Recent content on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Nov 2016 01:06:21 +0000</lastBuildDate>
     
-	<atom:link href="http://ninovsnino.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ninovsnino.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://ninovsnino.io/about/</link>
+      <link>https://ninovsnino.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/about/</guid>
+      <guid>https://ninovsnino.io/about/</guid>
       <description>Nino Wicaksono is a passionate software developer, he has experience working in a wide range of industry from Banking, Consumer Electronic, Semiconductor, Automotive, to Storage Technology. Currently, his professional domain is in the firmware security. More on the professional records in his linkedin profile.
 He works with C language and comfortable with batch and shell scripting, Python, and C++. He uses Vim to boost his productivity.
 He ships various products for consumers and enterprises.</description>
@@ -24,20 +24,20 @@ He ships various products for consumers and enterprises.</description>
     
     <item>
       <title>Mutex vs Semaphore</title>
-      <link>http://ninovsnino.io/posts/mutex-vs-semaphore/</link>
+      <link>https://ninovsnino.io/posts/mutex-vs-semaphore/</link>
       <pubDate>Wed, 09 Nov 2016 01:06:21 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/mutex-vs-semaphore/</guid>
+      <guid>https://ninovsnino.io/posts/mutex-vs-semaphore/</guid>
       <description>A simple yet clear analogy on the difference between mutex and semaphore
  Mutex: Is a key to a toilet. One person can have the key - occupy the toilet - at the time. When finished, the person gives (frees) the key to the next person in the queue. Officially: &amp;ldquo;Mutexes are typically used to serialise access to a section of re-entrant code that cannot be executed concurrently by more than one thread.</description>
     </item>
     
     <item>
       <title>Generate key pair with OpenSSL</title>
-      <link>http://ninovsnino.io/posts/generate-key-pair-with-openssl/</link>
+      <link>https://ninovsnino.io/posts/generate-key-pair-with-openssl/</link>
       <pubDate>Wed, 22 Jun 2016 08:44:46 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/generate-key-pair-with-openssl/</guid>
+      <guid>https://ninovsnino.io/posts/generate-key-pair-with-openssl/</guid>
       <description>I was playing around with OpenSSL again and here is some (hopefully) simple take to get familiarize with it&amp;rsquo;s capability.
 Generate key pair and getting it&amp;rsquo;s modulus and exponent Here are the openssl commands that operate to generate key pair and get the information about the generated key
  Generate key pair openssl genrsa -aes256 -out private.pem 2048 Get public key openssl rsa -in private.pem -pubout -out public.pem Get private key (warning!</description>
@@ -45,10 +45,10 @@ Generate key pair and getting it&amp;rsquo;s modulus and exponent Here are the o
     
     <item>
       <title>How to get a getch( )</title>
-      <link>http://ninovsnino.io/posts/how-to-get-a-getch/</link>
+      <link>https://ninovsnino.io/posts/how-to-get-a-getch/</link>
       <pubDate>Wed, 15 Jun 2016 00:12:36 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/how-to-get-a-getch/</guid>
+      <guid>https://ninovsnino.io/posts/how-to-get-a-getch/</guid>
       <description>Bummer, your small c apps compiler doesn&amp;rsquo;t have a getch(). We can overcome this by installing ncurses or create our own getch() function.
  ncurses  If you&amp;rsquo;re using cygwin, we should install ncurses first (it&amp;rsquo;s not included in cygwin&amp;rsquo;s default setup). First of all, you have to get the libncurses-devel package.
 Here is example how to use ncurses  https://gist.github.com/ninovsnino/f6ca81086fd5c170665e04bc053b22e7
@@ -57,10 +57,10 @@ Manual compile: gcc test_ncurses.c -lncurses CMake example to compile  https://g
     
     <item>
       <title>Vim MatchIt and FuzzyFinder</title>
-      <link>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</link>
+      <link>https://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</link>
       <pubDate>Sun, 29 May 2016 03:55:57 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</guid>
+      <guid>https://ninovsnino.io/posts/vim-matchit-and-fuzzyfinder/</guid>
       <description>Here is my addition to my .vimrc config file this week.  https://gist.github.com/ninovsnino/f55aadeb8c2e481d6bbf5d9a42152c71
 The First part is to load matchit.vim that already part of Vim distribution, it aiding a great help for me to browse through html file, it extend the % vim command.
 The second part is a bit tricky for FuzzyFinder plugin user, I want to exclude directory, in this case is &amp;ldquo;venv&amp;rdquo; directory, that apparently the regex matching work well with fuf_file_exclude instead of fuf_dir_exclude.</description>
@@ -68,48 +68,48 @@ The second part is a bit tricky for FuzzyFinder plugin user, I want to exclude d
     
     <item>
       <title>Git cheat sheet</title>
-      <link>http://ninovsnino.io/posts/git-cheat-sheet/</link>
+      <link>https://ninovsnino.io/posts/git-cheat-sheet/</link>
       <pubDate>Thu, 19 May 2016 05:28:12 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/git-cheat-sheet/</guid>
+      <guid>https://ninovsnino.io/posts/git-cheat-sheet/</guid>
       <description>Git: distributed repository is the new centralize. Common used git command. I keep it brief with no/minimum explanation of each command by hoping that those commands are self explanatory. I also organize by git trifecta of Add/Modify - Branch - Remote workflow. Add, check and publish. The basic
  Starting  git init git clone &amp;lt;repository-url&amp;gt;   Adding/making changes  git add . git add &amp;lt;path/file.name&amp;gt; git commit -am “”   Checking status  git status git log —-all —-graph —-oneline git log branch1.</description>
     </item>
     
     <item>
       <title>My .vimrc</title>
-      <link>http://ninovsnino.io/posts/my-vimrc/</link>
+      <link>https://ninovsnino.io/posts/my-vimrc/</link>
       <pubDate>Wed, 23 Mar 2016 06:46:26 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/my-vimrc/</guid>
+      <guid>https://ninovsnino.io/posts/my-vimrc/</guid>
       <description>My .vimrc, vim config file that I use everyday.
 I want to keep it simple by not having too much configuration in vimrc itself. There is a plugin to manage vimrc to make it cleaner and readable, however it will introduce extra configuration. My idea with this vimrc is to share easily between machine, main machine, or remote compiler machine that we can ssh it. Only one setup is needed to modify by hand, the vundle package manager, that&amp;rsquo;s it.</description>
     </item>
     
     <item>
       <title>Acquiring Knowledge</title>
-      <link>http://ninovsnino.io/posts/acquiring-knowledge/</link>
+      <link>https://ninovsnino.io/posts/acquiring-knowledge/</link>
       <pubDate>Thu, 03 Mar 2016 05:57:16 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/acquiring-knowledge/</guid>
+      <guid>https://ninovsnino.io/posts/acquiring-knowledge/</guid>
       <description>Once we&amp;rsquo;re graduate from school we are expected to learn some and rightfully knowledgeable on a certain subject we&amp;rsquo;re pursuing. Learning broad subject in schools or books doesn&amp;rsquo;t mean we really understand it. Once my teacher said that the best way to understand is to teach someone the subject that we want to master. Teaching the same subject make her easily solve many problem variants, that makes sense. Repetition is key.</description>
     </item>
     
     <item>
       <title>Write issue in Cygwin</title>
-      <link>http://ninovsnino.io/posts/write-issue-in-cygwin/</link>
+      <link>https://ninovsnino.io/posts/write-issue-in-cygwin/</link>
       <pubDate>Wed, 23 Jul 2014 01:09:25 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/write-issue-in-cygwin/</guid>
+      <guid>https://ninovsnino.io/posts/write-issue-in-cygwin/</guid>
       <description>Initially I was put the title as &amp;ldquo;Read/Write issue in Cygwin&amp;rdquo; but, there&amp;rsquo;s no issue on Read operation but surely it&amp;rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&amp;rsquo;s for our own good, so we just need to deal with it.</description>
     </item>
     
     <item>
       <title>Installing topojson</title>
-      <link>http://ninovsnino.io/posts/installing-topojson/</link>
+      <link>https://ninovsnino.io/posts/installing-topojson/</link>
       <pubDate>Sat, 19 Jul 2014 15:56:31 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/installing-topojson/</guid>
+      <guid>https://ninovsnino.io/posts/installing-topojson/</guid>
       <description>If you&amp;rsquo;re having difficulties on installing topojson, you&amp;rsquo;re not alone. Even someone has wisdom suggesting to let it go.
 Map
 Plenty are failed and some successful installing topojson, the problem was it has too many dependency. First of all topojson run on top of node.js which is the first pitfall of the initial failure by installing blindly with no awareness of stable release. If you&amp;rsquo;re using windows, like me, unfortunately, you&amp;rsquo;ve already messing around with your existing python yet, most probably, failed.</description>
@@ -117,77 +117,77 @@ Plenty are failed and some successful installing topojson, the problem was it ha
     
     <item>
       <title>Updating GitHub Fork</title>
-      <link>http://ninovsnino.io/posts/updating-github-fork/</link>
+      <link>https://ninovsnino.io/posts/updating-github-fork/</link>
       <pubDate>Mon, 17 Mar 2014 08:36:28 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/updating-github-fork/</guid>
+      <guid>https://ninovsnino.io/posts/updating-github-fork/</guid>
       <description>Let say you want to contribute to an interesting project on GitHub neovim/neovim, first we need to fork it to our GitHub accout ninovsnino/neovim. All this we need to do that in our own GitHub account. I&amp;rsquo;m a vim guy and I really exited on the initiative to make a modern and extendable version of vim, it&amp;rsquo;s a good example on new and hot open source project on GitHub.
 Register and list git alias Now let&amp;rsquo;s open our Git Bash console to clone it in our local machine</description>
     </item>
     
     <item>
       <title>Payback at Olympico</title>
-      <link>http://ninovsnino.io/posts/payback-at-olympico/</link>
+      <link>https://ninovsnino.io/posts/payback-at-olympico/</link>
       <pubDate>Thu, 23 Jan 2014 13:51:02 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/payback-at-olympico/</guid>
+      <guid>https://ninovsnino.io/posts/payback-at-olympico/</guid>
       <description>January 5th still fresh in our memory, the match in Turin against Juventus is the anti climax on how Roma approach the game, how we hold and play the ball, how we dominate the pitch on opponent stadium and Roma force them make Juventus change their approach to play 10 man behind the ball. On paper statistics Roma dominate the possession by 59% with only 9 players in the pitch, also on paper the end result statistics Juventus 3 - 0 Roma.</description>
     </item>
     
     <item>
       <title>Vengeance and Liberation, Roma derby</title>
-      <link>http://ninovsnino.io/posts/vengeance-and-liberation-roma-derby/</link>
+      <link>https://ninovsnino.io/posts/vengeance-and-liberation-roma-derby/</link>
       <pubDate>Wed, 25 Sep 2013 14:37:15 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/vengeance-and-liberation-roma-derby/</guid>
+      <guid>https://ninovsnino.io/posts/vengeance-and-liberation-roma-derby/</guid>
       <description>&amp;ldquo;Il mio nome e` il simbolo della tua eterna sconfitta&amp;rdquo; “My name is the symbol of your eternal defeat.”
  In Roma derby day, no one remember it&amp;rsquo;s the 4th giornata, a home match, or a 0/1/3 point(s), none of that, it&amp;rsquo;s rivalry, passion, emotions. It&amp;rsquo;s beyond. 26th May still clouding over roman heads, the defeat on the Coppa Italia&amp;rsquo;s final. AS Roma as a group wasn&amp;rsquo;t able to take all the blame, Danielle De Rossi crying, the always energetic Alessandro Florenzi look sluggish dragging his feet after the final whistle.</description>
     </item>
     
     <item>
       <title>Cygwin, nice and easy setup</title>
-      <link>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
+      <link>https://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
       <pubDate>Sun, 26 May 2013 06:30:36 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
+      <guid>https://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
       <description>I have been working in *nix environment for quite sometimes, most of embedded system nowadays build on top of Linux along with *nix toolset, for me it&amp;rsquo;s with BusyBox, minimal *nix stripped down toolset dubbed by the author addresses as The Swiss Army Knife for Embedded Linux, which is true in tight constraint nature in embedded &amp;ldquo;pocket&amp;rdquo; size.
 We have to live in that world, a lot of limitation and we need to overcome it with right mindset.</description>
     </item>
     
     <item>
       <title>Convert string to wide, and wide to string C&#43;&#43;</title>
-      <link>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
+      <link>https://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>
       <pubDate>Sun, 27 May 2012 15:27:58 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
+      <guid>https://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</guid>
       <description>For us who working on *nix platform, we will show a way to ocnvert between wide string to string and vice versa, and also to convert to char *.
 The emerge of 64 bit architecture on the processor and operating system make a lot of application need to move to the more advance platform. Applications and libraries which build on 32 bit platform is not to say it&amp;rsquo;s obsolete, they in fact are still able to run on top of 64 bit, but it will not utilize fully the extra 32 bit.</description>
     </item>
     
     <item>
       <title>One Day Bureaucracy</title>
-      <link>http://ninovsnino.io/posts/one-day-bureaucracy/</link>
+      <link>https://ninovsnino.io/posts/one-day-bureaucracy/</link>
       <pubDate>Sat, 26 May 2012 05:17:31 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/one-day-bureaucracy/</guid>
+      <guid>https://ninovsnino.io/posts/one-day-bureaucracy/</guid>
       <description>Two weeks back I was going back to Jakarta, the capital. The last time I visit Jakarta was alone, for just 2 days on weekends, reach Jakarta on Friday night, and return back Sunday night. Now I am going with my family. We had planned this trip months before. Me, Wulan, and Nina finally has a chance to travel together. We never had a chance to travel together so far, the arrangement usually goes like this, Wulan and Nina, they will go first, and later I pick them up then we had chance travel together back to Singapore.</description>
     </item>
     
     <item>
       <title>SIM Internasional</title>
-      <link>http://ninovsnino.io/posts/sim-internasional/</link>
+      <link>https://ninovsnino.io/posts/sim-internasional/</link>
       <pubDate>Thu, 17 May 2012 15:51:47 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/sim-internasional/</guid>
+      <guid>https://ninovsnino.io/posts/sim-internasional/</guid>
       <description>Selama ini saya menikmati transportasi umum di luar negri, bagi saya transportasi umum yang layak dan nyaman adalah syarat negara maju, artinya negara yang sudah bertindak memikirkan rakyatnya. Saya bersyukur di Singapura karena disini hampir semua tempat tujuan yang ingin saya kunjungi memiliki akses transportasi umum. Di beberapa tempat memang sulit dijangkau dengan jalur bis, ada tempat-tempat makan yang sedikit mahal mewah dan unik seperti dempsey road atau kemarin saya menemukan tempat baru di belakang fusionpolis, atau bagi orang Indonesia, agak sulit juga menuju KBRI Singapura kan?</description>
     </item>
     
     <item>
       <title>Get Delta/Elapse time in Python with datetime</title>
-      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>
+      <link>https://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>
       <pubDate>Fri, 17 Feb 2012 13:00:31 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</guid>
+      <guid>https://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</guid>
       <description>Time it better Now human need to keep up with machine, let’s keep up with them then, we are talking with milliseconds and microseconds now, we will use datetime.
 import datetime &amp;gt;&amp;gt;&amp;gt; datetime.datetime.now() datetime.datetime(2012, 2, 17, 20, 29, 53, 567000) uh, …, I will change it. Too much typing.
 from datetime import datetime startTime = datetime.now() # do something fast! faster! elapsedTime = datetime.now() – startTime print elapsedTime.microseconds Notice on microseconds, because Pyhton give in microseconds we can simply convert it to milliseconds with * 1000</description>
@@ -195,10 +195,10 @@ from datetime import datetime startTime = datetime.now() # do something fast! fa
     
     <item>
       <title>Get Delta/Elapse time in Python</title>
-      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
+      <link>https://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
       <pubDate>Thu, 16 Feb 2012 07:09:51 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
+      <guid>https://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
       <description>How to get delta time in python? Python provide time module, as my favourite way to get delta / elapse time, of course, depends on what you need.
 I usually do taking user normal actions, by getting a simple hour-minute-seconds, like time taken running scripts, batching, clicking buttons and navigate between tabs, or buttons.
 import time startTime = time.time() # doing blah... blah... # whatever actions we do in here elapsedTime = time.</description>
@@ -206,10 +206,10 @@ import time startTime = time.time() # doing blah... blah... # whatever actions w
     
     <item>
       <title>py2exe redistributable</title>
-      <link>http://ninovsnino.io/posts/py2exe-redistributable/</link>
+      <link>https://ninovsnino.io/posts/py2exe-redistributable/</link>
       <pubDate>Tue, 03 Jan 2012 02:09:23 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/py2exe-redistributable/</guid>
+      <guid>https://ninovsnino.io/posts/py2exe-redistributable/</guid>
       <description>In my works, I have been dealing with a lot of last minutes issue and request, it means that work will pop up, could be some calls, people approach me, email with urgent icon and marked as important because &amp;ldquo;the content inside telling you need to do something about it ASAP blah blah&amp;rdquo;, this just appear like hour before I wrapt my phone, bag, and lock my system.
 Last week was different, none of that mentioned, I come with self defence first We had different mood, it was a holiday mood between the 25th and end of the year, two long weekend in row, time to clear leave, shutdown maybe, you can name it.</description>
     </item>

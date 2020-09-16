@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cmake on Nino Wicaksono</title>
-    <link>http://ninovsnino.io/tags/cmake/</link>
+    <link>https://ninovsnino.io/tags/cmake/</link>
     <description>Recent content in cmake on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jun 2016 00:12:36 +0000</lastBuildDate>
     
-	<atom:link href="http://ninovsnino.io/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ninovsnino.io/tags/cmake/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to get a getch( )</title>
-      <link>http://ninovsnino.io/posts/how-to-get-a-getch/</link>
+      <link>https://ninovsnino.io/posts/how-to-get-a-getch/</link>
       <pubDate>Wed, 15 Jun 2016 00:12:36 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/how-to-get-a-getch/</guid>
+      <guid>https://ninovsnino.io/posts/how-to-get-a-getch/</guid>
       <description>Bummer, your small c apps compiler doesn&amp;rsquo;t have a getch(). We can overcome this by installing ncurses or create our own getch() function.
  ncurses  If you&amp;rsquo;re using cygwin, we should install ncurses first (it&amp;rsquo;s not included in cygwin&amp;rsquo;s default setup). First of all, you have to get the libncurses-devel package.
 Here is example how to use ncurses  https://gist.github.com/ninovsnino/f6ca81086fd5c170665e04bc053b22e7

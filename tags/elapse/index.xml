@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elapse on Nino Wicaksono</title>
-    <link>http://ninovsnino.io/tags/elapse/</link>
+    <link>https://ninovsnino.io/tags/elapse/</link>
     <description>Recent content in elapse on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 17 Feb 2012 13:00:31 +0000</lastBuildDate>
     
-	<atom:link href="http://ninovsnino.io/tags/elapse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ninovsnino.io/tags/elapse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Get Delta/Elapse time in Python with datetime</title>
-      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>
+      <link>https://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>
       <pubDate>Fri, 17 Feb 2012 13:00:31 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</guid>
+      <guid>https://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</guid>
       <description>Time it better Now human need to keep up with machine, let’s keep up with them then, we are talking with milliseconds and microseconds now, we will use datetime.
 import datetime &amp;gt;&amp;gt;&amp;gt; datetime.datetime.now() datetime.datetime(2012, 2, 17, 20, 29, 53, 567000) uh, …, I will change it. Too much typing.
 from datetime import datetime startTime = datetime.now() # do something fast! faster! elapsedTime = datetime.now() – startTime print elapsedTime.microseconds Notice on microseconds, because Pyhton give in microseconds we can simply convert it to milliseconds with * 1000</description>
@@ -24,10 +24,10 @@ from datetime import datetime startTime = datetime.now() # do something fast! fa
     
     <item>
       <title>Get Delta/Elapse time in Python</title>
-      <link>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
+      <link>https://ninovsnino.io/posts/get-delta-elapse-time-in-python/</link>
       <pubDate>Thu, 16 Feb 2012 07:09:51 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
+      <guid>https://ninovsnino.io/posts/get-delta-elapse-time-in-python/</guid>
       <description>How to get delta time in python? Python provide time module, as my favourite way to get delta / elapse time, of course, depends on what you need.
 I usually do taking user normal actions, by getting a simple hour-minute-seconds, like time taken running scripts, batching, clicking buttons and navigate between tabs, or buttons.
 import time startTime = time.time() # doing blah... blah... # whatever actions we do in here elapsedTime = time.</description>

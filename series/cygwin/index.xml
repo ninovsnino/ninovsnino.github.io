@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cygwin on Nino Wicaksono</title>
-    <link>http://ninovsnino.io/series/cygwin/</link>
+    <link>https://ninovsnino.io/series/cygwin/</link>
     <description>Recent content in cygwin on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 23 Jul 2014 01:09:25 +0000</lastBuildDate>
     
-	<atom:link href="http://ninovsnino.io/series/cygwin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ninovsnino.io/series/cygwin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Write issue in Cygwin</title>
-      <link>http://ninovsnino.io/posts/write-issue-in-cygwin/</link>
+      <link>https://ninovsnino.io/posts/write-issue-in-cygwin/</link>
       <pubDate>Wed, 23 Jul 2014 01:09:25 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/write-issue-in-cygwin/</guid>
+      <guid>https://ninovsnino.io/posts/write-issue-in-cygwin/</guid>
       <description>Initially I was put the title as &amp;ldquo;Read/Write issue in Cygwin&amp;rdquo; but, there&amp;rsquo;s no issue on Read operation but surely it&amp;rsquo;s on the Write operation, so there we go. During Windows XP days Write operation never be a problem maybe to some extend if you tighten up the security, however now most of operating system will have stronger access to your file and asking for admin permission. It&amp;rsquo;s for our own good, so we just need to deal with it.</description>
     </item>
     
     <item>
       <title>Cygwin, nice and easy setup</title>
-      <link>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
+      <link>https://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</link>
       <pubDate>Sun, 26 May 2013 06:30:36 +0000</pubDate>
       
-      <guid>http://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
+      <guid>https://ninovsnino.io/posts/cygwin-nice-and-easy-setup/</guid>
       <description>I have been working in *nix environment for quite sometimes, most of embedded system nowadays build on top of Linux along with *nix toolset, for me it&amp;rsquo;s with BusyBox, minimal *nix stripped down toolset dubbed by the author addresses as The Swiss Army Knife for Embedded Linux, which is true in tight constraint nature in embedded &amp;ldquo;pocket&amp;rdquo; size.
 We have to live in that world, a lot of limitation and we need to overcome it with right mindset.</description>
     </item>
