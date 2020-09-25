@@ -6,10 +6,22 @@
     <description>Recent content in Software on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Nov 2016 01:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 20:15:33 +0800</lastBuildDate>
     
 	<atom:link href="https://ninovsnino.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Host This Website in 2020</title>
+      <link>https://ninovsnino.io/posts/host-this-website-in-2020/</link>
+      <pubDate>Tue, 22 Sep 2020 20:15:33 +0800</pubDate>
+      
+      <guid>https://ninovsnino.io/posts/host-this-website-in-2020/</guid>
+      <description>Some call this year 2020 is depressing. Let&amp;rsquo;s change that tone by do something new.
+Motivation Well, that was pretty good motivation already.
+Okay, here is what happened, I have been living under the rock in the past years, and I come out and see the world is moving to JAM-Stack.
+In a nutshell, a static site that hosted on CDN. It provides speed (no backend logic) and security (less attacking surface).</description>
+    </item>
     
     <item>
       <title>Mutex vs Semaphore</title>
@@ -18,7 +30,9 @@
       
       <guid>https://ninovsnino.io/posts/mutex-vs-semaphore/</guid>
       <description>A simple yet clear analogy on the difference between mutex and semaphore
- Mutex: Is a key to a toilet. One person can have the key - occupy the toilet - at the time. When finished, the person gives (frees) the key to the next person in the queue. Officially: &amp;ldquo;Mutexes are typically used to serialise access to a section of re-entrant code that cannot be executed concurrently by more than one thread.</description>
+ Mutex: Is a key to a toilet. One person can have the key - occupy the toilet - at the time. When finished, the person gives (frees) the key to the next person in the queue.
+Officially:
+ &amp;ldquo;Mutexes are typically used to serialize access to a section of re-entrant code that cannot be executed concurrently by more than one thread.</description>
     </item>
     
     <item>
