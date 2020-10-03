@@ -6,11 +6,7 @@
     <description>Recent content in wstring on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 May 2012 15:27:58 +0000</lastBuildDate>
-    
-	<atom:link href="https://ninovsnino.io/tags/wstring/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 May 2012 15:27:58 +0000</lastBuildDate><atom:link href="https://ninovsnino.io/tags/wstring/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convert string to wide, and wide to string C&#43;&#43;</title>
       <link>https://ninovsnino.io/posts/convert-string-to-wide-and-wide-to-string-c/</link>

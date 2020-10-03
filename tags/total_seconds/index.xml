@@ -6,11 +6,7 @@
     <description>Recent content in total_seconds on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Feb 2012 13:00:31 +0000</lastBuildDate>
-    
-	<atom:link href="https://ninovsnino.io/tags/total_seconds/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Feb 2012 13:00:31 +0000</lastBuildDate><atom:link href="https://ninovsnino.io/tags/total_seconds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get Delta/Elapse time in Python with datetime</title>
       <link>https://ninovsnino.io/posts/get-delta-elapse-time-in-python-with-datetime/</link>

@@ -6,10 +6,18 @@
     <description>Recent content in Software on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2020 20:15:33 +0800</lastBuildDate>
-    
-	<atom:link href="https://ninovsnino.io/series/software/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sat, 03 Oct 2020 16:46:46 +0800</lastBuildDate><atom:link href="https://ninovsnino.io/series/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Powershell Tips</title>
+      <link>https://ninovsnino.io/posts/powershell-tips/</link>
+      <pubDate>Sat, 03 Oct 2020 16:46:46 +0800</pubDate>
+      
+      <guid>https://ninovsnino.io/posts/powershell-tips/</guid>
+      <description>Command Line i.e cmd.exe are still in use in the today system, largely because there are deep entanglements of batch processes in the legacy (old) system.
+PowerShell is coming offering much more of the old command line in a more standard way. With standardization, it can provide homogeneity and best practices for the advanced user.
+For me, these 2 things are big,
+ Piping, for output redirection Alias, for make it Linux like commands  We can get the recent version from PowerShell&amp;rsquo;s Github release page.</description>
+    </item>
     
     <item>
       <title>Host This Website in 2020</title>

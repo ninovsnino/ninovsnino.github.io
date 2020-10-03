@@ -6,11 +6,7 @@
     <description>Recent content in crypto on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jun 2016 08:44:46 +0000</lastBuildDate>
-    
-	<atom:link href="https://ninovsnino.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 22 Jun 2016 08:44:46 +0000</lastBuildDate><atom:link href="https://ninovsnino.io/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generate key pair with OpenSSL</title>
       <link>https://ninovsnino.io/posts/generate-key-pair-with-openssl/</link>

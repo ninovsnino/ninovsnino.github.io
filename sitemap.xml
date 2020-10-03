@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ninovsnino.io/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/posts/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/tags/powershell/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/series/powershell/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/posts/powershell-tips/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/series/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/tags/software/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/series/software/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ninovsnino.io/tags/</loc>
+    <lastmod>2020-10-03T16:46:46+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ninovsnino.io/posts/host-this-website-in-2020/</loc>
     <lastmod>2020-09-22T20:15:33+08:00</lastmod>
   </url>
@@ -14,36 +59,6 @@
   
   <url>
     <loc>https://ninovsnino.io/series/hugo/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/posts/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/series/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/tags/software/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/series/software/</loc>
-    <lastmod>2020-09-22T20:15:33+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ninovsnino.io/tags/</loc>
     <lastmod>2020-09-22T20:15:33+08:00</lastmod>
   </url>
   
