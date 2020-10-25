@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Nino Wicaksono">
+    <meta name="description" content="Make Powershell Beautiful">
+    <meta name="keywords" content="">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Prettyfy Powershell"/>
+<meta name="twitter:description" content="Make Powershell Beautiful"/>
+
+    <meta property="og:title" content="Prettyfy Powershell" />
+<meta property="og:description" content="Make Powershell Beautiful" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ninovsnino.io/posts/prettyfy-powershell/" />
+<meta property="article:published_time" content="2020-10-24T17:23:46+08:00" />
+<meta property="article:modified_time" content="2020-10-24T17:23:46+08:00" /><meta property="og:site_name" content="Nino Wicaksono" /><meta property="og:see_also" content="https://ninovsnino.io/posts/powershell-tips/" />
+
+
+
+
+    
+      <base href="https://ninovsnino.io/posts/prettyfy-powershell/">
+    
+    <title>
+  Prettyfy Powershell · Nino Wicaksono
+</title>
+
+    
+      <link rel="canonical" href="https://ninovsnino.io/posts/prettyfy-powershell/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://ninovsnino.io/css/coder.min.7c2e1e065678b4402dc49a874c44987110511260722dcd2706d58f37d16a5a0f.css" integrity="sha256-fC4eBlZ4tEAtxJqHTESYcRBREmByLc0nBtWPN9FqWg8=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://ninovsnino.io/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://ninovsnino.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://ninovsnino.io/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="https://ninovsnino.io/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon"  sizes="180x180" href="https://ninovsnino.io/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.75.1" />
+  </head>
+  
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://ninovsnino.io/">
+      Nino Wicaksono
+    </a>
+    
+      <span id="dark-mode-toggle" class="float-right">
+        <i class="fas fa-adjust fa-fw"></i>
+      </span>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fas fa-bars fa-fw"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://ninovsnino.io/">Home</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://ninovsnino.io/posts/">Posts</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="https://ninovsnino.io/about/">About</a>
+            </li>
+          
+        
+        
+        <li class="navigation-item separator">
+          <span>|</span>
+        </li>
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Prettyfy Powershell</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-10-24T17:23:46&#43;08:00'>
+                October 24, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              4-minute read
+            </span>
+          </div>
+          
+          <div class="tags">
+  <i class="fas fa-tag"></i>
+    <a href="https://ninovsnino.io/tags/software/">Software</a>
+      <span class="separator">•</span>
+    <a href="https://ninovsnino.io/tags/powershell/">powershell</a></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <p>A shell 🐚 has to be pretty 💐.</p>
+<h6 id="look-at-powershell--conemu">Look at: PowerShell + ConEmu</h6>
+<p>It&rsquo;s brighter ☀️<br>
+<a href="https://www.flickr.com/photos/ninovsnino/50523269231" title="Prettyfy-Powershell-0"><img src="https://live.staticflickr.com/65535/50523269231_9df8e31ea1_c.jpg" alt="Prettyfy-Powershell-0"></a></p>
+<h6 id="look-at-powershell--windows-terminal">Look at: PowerShell + Windows Terminal</h6>
+<p>Oh, sparks ✨<br>
+<a href="https://www.flickr.com/photos/ninovsnino/50522550193" title="Prettyfy-Powershell-1"><img src="https://live.staticflickr.com/65535/50522550193_84fa4c772c_c.jpg" alt="Prettyfy-Powershell-1"></a></p>
+<h5 id="the-overview">The Overview</h5>
+<p>Whether bright or sparks, it is up to you to decide based on your taste. Both ConEmu and Windows Terminal are shells operating on top of PowerShell.<br>
+Here is what we will do,</p>
+<ol>
+<li>Setup a Terminal/Shell</li>
+<li>Configure Powershell: Colors + Fonts (PowerLine)</li>
+<li>Add Splash ASCII art</li>
+<li>Add some alias</li>
+</ol>
+<h5 id="setup-the-terminal">Setup the terminal</h5>
+<p>I am using PowerShell&rsquo;s latest <a href="https://github.com/PowerShell/PowerShell/releases">release-rc-2</a> and using chocolatey to manage all my package.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">choco install microsoft-windows-terminal
+choco install cascadiacodepl
+</code></pre></div><p>The PowerShell setup itself we can refer to Windows Terminal Setup — PowerLine-Setup<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>However, on top of that, I still need to register the trusted source for a better setup experience.</p>
+<ul>
+<li>Examine our PowerShell repository
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Get-PSRepository
+</code></pre></div></li>
+<li>Set the <a href="https://www.powershellgallery.com/">PSGallery</a> as a trusted source
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Set-PSRepository -Name <span style="color:#e6db74">&#39;PSGallery&#39;</span> -InstallationPolicy Trusted
+</code></pre></div></li>
+<li>Now we&rsquo;re ready to install the PowerShell modules: posh-git, on-my-post, and PSReadLine
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck
+</code></pre></div></li>
+<li>To prettify it more, we another module, Get-ChildItemColor.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Install-Module -Name Get-ChildItemColor
+</code></pre></div></li>
+</ul>
+<p>Once those modules are installed, we need to enable them in our PowerShell profile, through notepad.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">notepad $Profile
+</code></pre></div><p>Or, if you are a fan of notepad++ like me, we can make an alias for it,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Set-Alias -Name npp -Value <span style="color:#e6db74">&#39;C:\Program Files\Notepad++\notepad++.exe&#39;</span> -Description <span style="color:#e6db74">&#34;Alias to Notepad++&#34;</span>
+</code></pre></div><p>with that, you can open the $Profile using <code>npp</code>, a notepad++&rsquo;s alias.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">npp $Profile
+</code></pre></div><h5 id="powershell--windows-terminal-setup">PowerShell &amp; Windows Terminal setup</h5>
+<ol>
+<li>In PowerShell&rsquo;s <code>$Profile</code>, we will have the following imported modules and theme,</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Import-Module posh-git
+Import-Module oh-my-posh
+Import-Module Get-ChildItemColor
+Set-Theme Paradox
+
+Set-Alias -Name npp -Value <span style="color:#e6db74">&#39;C:\Program Files\Notepad++\notepad++.exe&#39;</span> -Description <span style="color:#e6db74">&#34;Alias to Notepad++&#34;</span>
+</code></pre></div><ol start="2">
+<li>In Windows Terminal, we add the installed Cascadia Code PL along with the font size, depends on our screen resolution.<br>
+For the complete settings list, we can refer it to a Windows Terminal <a href="https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings">profile setting</a>.</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#e6db74">&#34;fontFace&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;Cascadia Code PL&#34;</span>,
+<span style="color:#e6db74">&#34;cursorShape&#34;</span><span style="color:#960050;background-color:#1e0010">:</span> <span style="color:#e6db74">&#34;filledBox&#34;</span>,
+</code></pre></div><p>There are plenty of options like a background picture, to that extend, I leave it to the creative thought out there. For me, these 2 options are enough. Light and minimal.</p>
+<h5 id="icing-on-top">Icing on top</h5>
+<p>Use our signature name into an ASCII art.
+We simply use PowerShell&rsquo;s <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/write-host?view=powershell-7">Write-Host</a> utility.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Write-Host <span style="color:#e6db74">&#34; &#34;</span>
+Write-Host <span style="color:#e6db74">&#34;    .__   __. ____    ____ .__   __. &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  \ |  | \   \  /   / |  \ |  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |   \|  |  \   \/   /  |   \|  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  . &#39;  |   \      /   |  . &#39;  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  |\   |    \    /    |  |\   | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |__| \__|     \__/     |__| \__| &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34; &#34;</span>
+</code></pre></div><p>Again, we can be creative with <code>ForegroudnColor</code> and/or <code>BackgroundColor</code> options, you can make a rainbow 🌈 or lollipop 🍭 color too. I leave that creativity, again, out there.</p>
+<h5 id="alias-to-linuxs-list-look">Alias to Linux&rsquo;s list look</h5>
+<p>My current setting has this <code>ls</code> alias from on-my-posh</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">&gt; Get-Alias *ls*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+<span style="color:#66d9ef">Alias</span>           cls -&gt; Clear-Host
+<span style="color:#66d9ef">Alias</span>           ls -&gt; Get-ChildItemColorFormatWide                 0.8        oh-my-posh
+<span style="color:#66d9ef">Alias</span>           sls -&gt; Select-String
+</code></pre></div><p>To make it Linux like, we have option either to change the <code>ls</code> or <code>ll</code>, I chose the later.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell">Set-Alias -Name ll -Value Get-ChildItemColorFormatWide -Description <span style="color:#e6db74">&#34;Alias ll to ColorFormatWide&#34;</span>
+</code></pre></div><p>It will make <code>ll</code> command looks like this when listing the directory.</p>
+<p><a href="https://www.flickr.com/photos/ninovsnino/50526901377" title="Prettyfy-Powershell-2"><img src="https://live.staticflickr.com/65535/50526901377_302c3d362c_c.jpg" alt="Prettyfy-Powershell-2"></a></p>
+<p>Look at the colored wide-format, quite neat, I&rsquo;d say.</p>
+<h5 id="conemu-setup">ConEmu Setup</h5>
+<p>Now PowerShell is powered. The Windows Terminal is already setup.<br>
+And if you a fan of ConEmu&rsquo;s shell, we only need to add the following setup,</p>
+<ol>
+<li>Add a PowerShell task</li>
+</ol>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-txt" data-lang="txt">pwsh.exe -new_console
+</code></pre></div><ol start="2">
+<li>
+<p>Chose a font setup<br>
+<a href="https://www.flickr.com/photos/ninovsnino/50526055448" title="Prettyfy-Powershell-3"><img src="https://live.staticflickr.com/65535/50526055448_8f33834cb0_c.jpg" alt="Prettyfy-Powershell-3"></a></p>
+</li>
+<li>
+<p>Chose a color scheme setup<br>
+<a href="https://www.flickr.com/photos/ninovsnino/50526778426" title="Prettyfy-Powershell-4"><img src="https://live.staticflickr.com/65535/50526778426_f9b7e6d6d2_z.jpg" alt="Prettyfy-Powershell-4"></a></p>
+</li>
+</ol>
+<h4 id="closing">Closing</h4>
+<p>We can use this minimal setup as a foundation for a better shell, the <a href="https://github.com/JanDeDobbeleer/oh-my-posh">oh-my-post</a> is aiming to be the same status of oh-my-zsh. And yes, we should utilize it.</p>
+<p>My PowerShell&rsquo;s <code>$Profile</code> looks like this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-powershell" data-lang="powershell"><span style="color:#960050;background-color:#1e0010">❯</span> cat $Profile
+Import-Module posh-git
+Import-Module oh-my-posh
+Import-Module Get-ChildItemColor
+Set-Theme Paradox
+
+Set-Alias -Name npp -Value <span style="color:#e6db74">&#39;C:\Program Files\Notepad++\notepad++.exe&#39;</span> -Description <span style="color:#e6db74">&#34;Alias to Notepad++&#34;</span>
+Set-Alias -Name ll -Value Get-ChildItemColorFormatWide -Description <span style="color:#e6db74">&#34;Alias ll to ColorFormatWide&#34;</span>
+
+
+<span style="color:#75715e"># https://www.topster.net/text-to-ascii/starwars.html</span>
+Write-Host <span style="color:#e6db74">&#34; &#34;</span>
+Write-Host <span style="color:#e6db74">&#34;    .__   __. ____    ____ .__   __. &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  \ |  | \   \  /   / |  \ |  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |   \|  |  \   \/   /  |   \|  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  . &#39;  |   \      /   |  . &#39;  | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |  |\   |    \    /    |  |\   | &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34;    |__| \__|     \__/     |__| \__| &#34;</span> -ForegroundColor DarkYellow
+Write-Host <span style="color:#e6db74">&#34; &#34;</span>
+
+</code></pre></div><p>You can get it from my Gist as well
+<script type="application/javascript" src="https://gist.github.com/ninovsnino/e7c6e3c4e816f0e761b58c910e329185.js"></script>
+</p>
+<p>Have fun.</p>
+<hr>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>From Microsoft&rsquo;s <a href="https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup">tutorial</a>, which also includes Scott Hanselman&rsquo;s tutorial. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in powershell</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/powershell-tips/">Powershell Tips</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+    
+    
+    
+      <h3>See also in Software</h3>
+      <nav>
+        <ul>
+        
+        
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/powershell-tips/">Powershell Tips</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/host-this-website-in-2020/">Host This Website in 2020</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/mutex-vs-semaphore/">Mutex vs Semaphore</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/generate-key-pair-with-openssl/">Generate key pair with OpenSSL</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://ninovsnino.io/posts/how-to-get-a-getch/">How to get a getch( )</a>
+            </li>
+          
+        
+        </ul>
+      </nav>
+    
+  
+</section>
+
+
+        
+        
+        
+      </footer>
+    </article>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [
+          ['$', '$'], ['\\(', '\\)']
+        ],
+        processEscapes: true,
+        processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>ninovsnino - firmware on the day, software at night</p>
+      
+      
+        ©
+        
+        2020
+         Nino Wicaksono 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+      
+      <script src="https://ninovsnino.io/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+  </body>
+
+</html>

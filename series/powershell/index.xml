@@ -6,7 +6,23 @@
     <description>Recent content in powershell on Nino Wicaksono</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Oct 2020 16:46:46 +0800</lastBuildDate><atom:link href="https://ninovsnino.io/series/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 17:23:46 +0800</lastBuildDate><atom:link href="https://ninovsnino.io/series/powershell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prettyfy Powershell</title>
+      <link>https://ninovsnino.io/posts/prettyfy-powershell/</link>
+      <pubDate>Sat, 24 Oct 2020 17:23:46 +0800</pubDate>
+      
+      <guid>https://ninovsnino.io/posts/prettyfy-powershell/</guid>
+      <description>A shell 🐚 has to be pretty 💐.
+Look at: PowerShell + ConEmu It&amp;rsquo;s brighter ☀️
+
+Look at: PowerShell + Windows Terminal Oh, sparks ✨
+
+The Overview Whether bright or sparks, it is up to you to decide based on your taste. Both ConEmu and Windows Terminal are shells operating on top of PowerShell.
+Here is what we will do,
+ Setup a Terminal/Shell Configure Powershell: Colors + Fonts (PowerLine) Add Splash ASCII art Add some alias  Setup the terminal I am using PowerShell&amp;rsquo;s latest release-rc-2 and using chocolatey to manage all my package.</description>
+    </item>
+    
     <item>
       <title>Powershell Tips</title>
       <link>https://ninovsnino.io/posts/powershell-tips/</link>
